@@ -24,8 +24,7 @@ th {
 }
 td {
   font-size: 25px;
-  color: orange;
-	border: 1px solid orange;
+	border: 1px solid;
   text-align: center;
   }
 td~td {
@@ -33,6 +32,15 @@ td~td {
   color: yellow;
   border-color: yellow;
 }
+div {
+  text-align: center;
+  font-size: 20px;
+}
+div a {
+  text-decoration: none;
+  color: orange;
+}
 footer {
   text-align: center;
+  color: blue;
 }
