@@ -11,24 +11,26 @@ h1 {
 table {
   margin: 0 auto;
   table-layout: fixed;
-  height: 700px;
+  height: 800px;
 }
 #images td~td {
   background: rgb(0,0,0);
   height:250px;
 }
 th {
+  font-style: italic;
   font-size: 30px;
   border: 1px solid;
 }
 td {
-  font-size: 20px;
-  font-weight: bold;
-  color: black;
+  font-size: 25px;
+  
+  color: orange;
 	border: 1px solid orange;
   text-align: center;
   }
 td~td {
+  font-size: 20px;
   color: yellow;
   border-color: yellow;
 }
