@@ -1,7 +1,37 @@
-/*body {
-	background-image: url("../images/solarsystem.jpg");
-}*/
-td, th {
-	border: 1px solid;
+body {
+	color: orange;
+  background-image: url("../images/solarsystem.jpg");
+  background-size: cover;
+}
+h1 {
+  font-size: 60px;
+  font-family: "Arial", "sans-serif";
+  text-align: center;
+}
+table {
+  margin: 0 auto;
+  table-layout: fixed;
+  height: 700px;
+}
+#images td~td {
+  background: rgb(0,0,0);
+  height:250px;
+}
+th {
+  font-size: 30px;
+  border: 1px solid;
+}
+td {
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+	border: 1px solid orange;
+  text-align: center;
   }
-  
+td~td {
+  color: yellow;
+  border-color: yellow;
+}
+footer {
+  text-align: center;
+}
